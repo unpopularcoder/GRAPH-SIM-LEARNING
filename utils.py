@@ -1,2 +1,2 @@
 """
-Part of the code in <utils.py> is from SimGNN@bened
+Part of the code in <utils.py> is from SimGNN@benedekroz
