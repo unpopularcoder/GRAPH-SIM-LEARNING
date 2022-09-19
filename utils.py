@@ -3,4 +3,5 @@ Part of the code in <utils.py> is from SimGNN@benedekrozemberczki
 """
 
 import os
-import num
+import numpy as np
+f
