@@ -5,4 +5,5 @@ Part of the code in <utils.py> is from SimGNN@benedekrozemberczki
 import os
 import numpy as np
 from texttable import Texttable
-from scipy import s
+from scipy import stats
+
