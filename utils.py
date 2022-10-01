@@ -7,3 +7,5 @@ import numpy as np
 from texttable import Texttable
 from scipy import stats
 
+
+def compu
