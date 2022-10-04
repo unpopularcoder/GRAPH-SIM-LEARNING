@@ -8,4 +8,4 @@ from texttable import Texttable
 from scipy import stats
 
 
-def computing_precision_ks(trues, prediction
+def computing_precision_ks(trues, predictions, ks, inc
