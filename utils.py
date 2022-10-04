@@ -8,4 +8,4 @@ from texttable import Texttable
 from scipy import stats
 
 
-def computing_preci
+def computing_precision_ks
