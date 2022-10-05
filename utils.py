@@ -9,4 +9,4 @@ from scipy import stats
 
 
 def computing_precision_ks(trues, predictions, ks, inclusive=True, rm=0):
-    assert
+    assert trues.sha
