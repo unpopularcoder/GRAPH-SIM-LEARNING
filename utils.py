@@ -10,4 +10,6 @@ from scipy import stats
 
 def computing_precision_ks(trues, predictions, ks, inclusive=True, rm=0):
     assert trues.shape == predictions.shape
-    m, n = true
+    m, n = trues.shape
+
+ 
