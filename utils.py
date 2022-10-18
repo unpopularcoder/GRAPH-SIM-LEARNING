@@ -12,4 +12,4 @@ def computing_precision_ks(trues, predictions, ks, inclusive=True, rm=0):
     assert trues.shape == predictions.shape
     m, n = trues.shape
 
-    precision_ks = np.zeros
+    precision_ks = np.zeros((m, len(
