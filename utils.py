@@ -19,4 +19,4 @@ def computing_precision_ks(trues, predictions, ks, inclusive=True, rm=0):
     for i in range(m):
 
         for k_idx, k in enumerate(ks):
-            assert (type(k) is int 
+            assert (type(k) is int and 0 < 
