@@ -20,4 +20,4 @@ def computing_precision_ks(trues, predictions, ks, inclusive=True, rm=0):
 
         for k_idx, k in enumerate(ks):
             assert (type(k) is int and 0 < k < n)
-            true_ids, true_k = top_k_ids(tru
+            true_ids, true_k = top_k_ids(trues, i, k, inclu
