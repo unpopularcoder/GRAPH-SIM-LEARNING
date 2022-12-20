@@ -23,4 +23,4 @@ def computing_precision_ks(trues, predictions, ks, inclusive=True, rm=0):
             true_ids, true_k = top_k_ids(trues, i, k, inclusive, rm)
             pred_ids, pred_k = top_k_ids(predictions, i, k, inclusive, rm)
             precision_ks[i][k_idx] = min(len(set(true_ids).intersection(set(pred_ids))), k) / k
-            inclusive_final_true_ks[i][k_i
+            inclusive_final_true_ks[i][k_idx] = true_
