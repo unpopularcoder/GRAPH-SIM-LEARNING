@@ -25,4 +25,5 @@ def computing_precision_ks(trues, predictions, ks, inclusive=True, rm=0):
             precision_ks[i][k_idx] = min(len(set(true_ids).intersection(set(pred_ids))), k) / k
             inclusive_final_true_ks[i][k_idx] = true_k
             inclusive_final_pred_ks[i][k_idx] = pred_k
-    return np.mean(precision_ks, axis=0), np.mean(inclusive_final_true_ks, axis=0), np.mean(inclusive_final_pred_ks, axis=
+    return np.mean(precision_ks, axis=0), np.mean(inclusive_final_true_ks, axis=0), np.mean(inclusive_final_pred_ks, axis=0)
+
