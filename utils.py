@@ -28,4 +28,4 @@ def computing_precision_ks(trues, predictions, ks, inclusive=True, rm=0):
     return np.mean(precision_ks, axis=0), np.mean(inclusive_final_true_ks, axis=0), np.mean(inclusive_final_pred_ks, axis=0)
 
 
-def metrics_spearmanr_rh
+def metrics_spearmanr_rho(true
