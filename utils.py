@@ -31,4 +31,6 @@ def computing_precision_ks(trues, predictions, ks, inclusive=True, rm=0):
 def metrics_spearmanr_rho(true, predication):
     assert true.shape == predication.shape
     rho, p_val = stats.spearmanr(true, predication)
-    ret
+    return rho
+
+
