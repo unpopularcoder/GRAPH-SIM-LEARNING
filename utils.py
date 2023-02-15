@@ -34,4 +34,4 @@ def metrics_spearmanr_rho(true, predication):
     return rho
 
 
-def metrics_kendal
+def metrics_kendall_tau(
