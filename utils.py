@@ -35,4 +35,4 @@ def metrics_spearmanr_rho(true, predication):
 
 
 def metrics_kendall_tau(true, predication):
-    assert true.shape == pre
+    assert true.shape == predicatio
