@@ -36,4 +36,5 @@ def metrics_spearmanr_rho(true, predication):
 
 def metrics_kendall_tau(true, predication):
     assert true.shape == predication.shape
-    tau, p_val = stats.kendalltau(true, predicati
+    tau, p_val = stats.kendalltau(true, predication)
+   
