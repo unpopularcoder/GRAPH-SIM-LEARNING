@@ -38,3 +38,6 @@ def metrics_kendall_tau(true, predication):
     assert true.shape == predication.shape
     tau, p_val = stats.kendalltau(true, predication)
     return tau
+
+
+def metr
