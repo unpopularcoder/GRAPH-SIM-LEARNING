@@ -41,4 +41,4 @@ def metrics_kendall_tau(true, predication):
 
 
 def metrics_mean_square_error(true, predication):
-    assert true.shape == pr
+    assert true.shape == predication.sha
