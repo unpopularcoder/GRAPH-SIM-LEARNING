@@ -46,4 +46,4 @@ def metrics_mean_square_error(true, predication):
     return mse
 
 
-def tab_printer(arg
+def tab_printer(args):
