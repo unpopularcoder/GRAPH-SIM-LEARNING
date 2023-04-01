@@ -48,4 +48,5 @@ def metrics_mean_square_error(true, predication):
 
 def tab_printer(args):
     """
-    Function to print the logs in a nice tabular forma
+    Function to print the logs in a nice tabular format.
+  
