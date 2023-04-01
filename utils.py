@@ -51,4 +51,4 @@ def tab_printer(args):
     Function to print the logs in a nice tabular format.
     :param args: Parameters used for the model.
     """
-    args 
+    args = vars(ar
