@@ -52,4 +52,4 @@ def tab_printer(args):
     :param args: Parameters used for the model.
     """
     args = vars(args)
-    keys 
+    keys = s
