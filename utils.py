@@ -53,4 +53,4 @@ def tab_printer(args):
     """
     args = vars(args)
     keys = sorted(args.keys())
-   
+    t = Texttab
