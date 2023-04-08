@@ -54,4 +54,4 @@ def tab_printer(args):
     args = vars(args)
     keys = sorted(args.keys())
     t = Texttable()
-    t.set_cols_dtype(['t'
+    t.set_cols_dtype(['t', 't'
