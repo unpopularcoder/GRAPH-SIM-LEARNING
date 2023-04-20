@@ -55,4 +55,4 @@ def tab_printer(args):
     keys = sorted(args.keys())
     t = Texttable()
     t.set_cols_dtype(['t', 't'])
-    t.add_rows([['Parameter', 'Value']] + [[k.replace('_', ' ').capitalize(), args[k]] fo
+    t.add_rows([['Parameter', 'Value']] + [[k.replace('_', ' ').capitalize(), args[k]] for k in keys]
