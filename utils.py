@@ -56,4 +56,7 @@ def tab_printer(args):
     t = Texttable()
     t.set_cols_dtype(['t', 't'])
     t.add_rows([['Parameter', 'Value']] + [[k.replace('_', ' ').capitalize(), args[k]] for k in keys])
-    print(t.draw
+    print(t.draw())
+
+
+def
