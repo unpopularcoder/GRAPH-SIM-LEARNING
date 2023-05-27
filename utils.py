@@ -65,4 +65,4 @@ def top_k_ids(data, k, inclusive, rm):
     :param k:
     :param inclusive: whether to be tie inclusive or not.
         For example, the ranking may look like this:
-        7 (sim_score=0.99), 5 (sim_score=0.99
+        7 (sim_score=0.99), 5 (sim_score=0.99), 10
