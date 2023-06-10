@@ -68,4 +68,4 @@ def top_k_ids(data, k, inclusive, rm):
         7 (sim_score=0.99), 5 (sim_score=0.99), 10 (sim_score=0.98), ...
         If tie inclusive, the top 1 results are [7, 9].
         Therefore, the number of returned results may be larger than k.
-       
+        In summary,
