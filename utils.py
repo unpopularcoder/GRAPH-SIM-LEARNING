@@ -69,4 +69,4 @@ def top_k_ids(data, k, inclusive, rm):
         If tie inclusive, the top 1 results are [7, 9].
         Therefore, the number of returned results may be larger than k.
         In summary,
-            len(r
+            len(rtn) == 
