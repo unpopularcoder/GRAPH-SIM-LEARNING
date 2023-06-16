@@ -70,4 +70,5 @@ def top_k_ids(data, k, inclusive, rm):
         Therefore, the number of returned results may be larger than k.
         In summary,
             len(rtn) == k if not tie inclusive;
-            len(rtn) >= k if tie inclus
+            len(rtn) >= k if tie inclusive.
+ 
