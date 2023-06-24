@@ -73,4 +73,5 @@ def top_k_ids(data, k, inclusive, rm):
             len(rtn) >= k if tie inclusive.
     :param rm: 0
     :return: for a query, the ids of the top k database graph
-    ranked by thi
+    ranked by this model.
+    """
