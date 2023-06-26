@@ -75,4 +75,4 @@ def top_k_ids(data, k, inclusive, rm):
     :return: for a query, the ids of the top k database graph
     ranked by this model.
     """
-    sort_id_mat = np.argsort(
+    sort_id_mat = np.argsort(-data)
