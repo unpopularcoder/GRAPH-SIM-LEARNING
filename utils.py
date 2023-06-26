@@ -76,3 +76,4 @@ def top_k_ids(data, k, inclusive, rm):
     ranked by this model.
     """
     sort_id_mat = np.argsort(-data)
+    n = so
