@@ -77,3 +77,4 @@ def top_k_ids(data, k, inclusive, rm):
     """
     sort_id_mat = np.argsort(-data)
     n = sort_id_mat.shape[0]
+    if k <
