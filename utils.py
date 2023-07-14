@@ -79,4 +79,4 @@ def top_k_ids(data, k, inclusive, rm):
     n = sort_id_mat.shape[0]
     if k < 0 or k >= n:
         raise RuntimeError('Invalid k {}'.format(k))
-    if not
+    if not inclusiv
