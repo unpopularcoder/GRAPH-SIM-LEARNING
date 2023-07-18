@@ -81,4 +81,4 @@ def top_k_ids(data, k, inclusive, rm):
         raise RuntimeError('Invalid k {}'.format(k))
     if not inclusive:
         return sort_id_mat[:k]
-    # 
+    # Tie 
