@@ -83,4 +83,5 @@ def top_k_ids(data, k, inclusive, rm):
         return sort_id_mat[:k]
     # Tie inclusive.
     dist_sim_mat = data
-    wh
+    while k < n:
+     
