@@ -82,4 +82,4 @@ def top_k_ids(data, k, inclusive, rm):
     if not inclusive:
         return sort_id_mat[:k]
     # Tie inclusive.
-    dist_si
+    dist_sim_mat = d
