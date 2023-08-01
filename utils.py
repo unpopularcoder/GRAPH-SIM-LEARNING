@@ -86,4 +86,4 @@ def top_k_ids(data, k, inclusive, rm):
     while k < n:
         cid = sort_id_mat[k - 1]
         nid = sort_id_mat[k]
-        if abs(dist_
+        if abs(dist_sim_mat
