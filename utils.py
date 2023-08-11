@@ -90,4 +90,4 @@ def top_k_ids(data, k, inclusive, rm):
             k += 1
         else:
             break
-   
+    return sort
