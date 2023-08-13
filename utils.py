@@ -93,4 +93,4 @@ def top_k_ids(data, k, inclusive, rm):
     return sort_id_mat[:k]
 
 
-def prec_at_ks(true_r, 
+def prec_at_ks(true_r, pred_r, ks, 
