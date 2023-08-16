@@ -95,4 +95,4 @@ def top_k_ids(data, k, inclusive, rm):
 
 def prec_at_ks(true_r, pred_r, ks, rm=0):
     """
-    Ran
+    Ranking-based
