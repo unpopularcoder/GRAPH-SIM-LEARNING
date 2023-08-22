@@ -98,4 +98,4 @@ def prec_at_ks(true_r, pred_r, ks, rm=0):
     Ranking-based. prec@ks.
     :param true_r: result object indicating the ground truth.
     :param pred_r: result object indicating the prediction.
-    
+    :param ks:
