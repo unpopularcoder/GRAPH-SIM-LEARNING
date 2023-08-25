@@ -100,4 +100,4 @@ def prec_at_ks(true_r, pred_r, ks, rm=0):
     :param pred_r: result object indicating the prediction.
     :param ks: k
     :param rm: 0
-    :return:
+    :return: precisio
