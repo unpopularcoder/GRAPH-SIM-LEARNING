@@ -102,4 +102,4 @@ def prec_at_ks(true_r, pred_r, ks, rm=0):
     :param rm: 0
     :return: precision at ks.
     """
-    tr
+    true_ids
