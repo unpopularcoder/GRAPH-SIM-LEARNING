@@ -102,4 +102,5 @@ def prec_at_ks(true_r, pred_r, ks, rm=0):
     :param rm: 0
     :return: precision at ks.
     """
-    true_ids = top_k_ids(true_r, ks, inclusive=True, r
+    true_ids = top_k_ids(true_r, ks, inclusive=True, rm=rm)
+   
