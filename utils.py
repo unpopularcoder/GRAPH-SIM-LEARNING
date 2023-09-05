@@ -104,4 +104,4 @@ def prec_at_ks(true_r, pred_r, ks, rm=0):
     """
     true_ids = top_k_ids(true_r, ks, inclusive=True, rm=rm)
     pred_ids = top_k_ids(pred_r, ks, inclusive=True, rm=rm)
-    ps = min(len(set(t
+    ps = min(len(set(true_ids).inte
