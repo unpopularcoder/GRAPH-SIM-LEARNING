@@ -110,4 +110,4 @@ def prec_at_ks(true_r, pred_r, ks, rm=0):
 
 def ranking_func(data):
     sort_id_mat = np.argsort(-data)
-    n = sort_id_mat.shap
+    n = sort_id_mat.shape[0]
