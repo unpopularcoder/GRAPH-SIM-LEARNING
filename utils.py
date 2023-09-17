@@ -112,4 +112,4 @@ def ranking_func(data):
     sort_id_mat = np.argsort(-data)
     n = sort_id_mat.shape[0]
     rank = np.zeros(n)
-    for
+    for i in r
