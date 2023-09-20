@@ -113,4 +113,4 @@ def ranking_func(data):
     n = sort_id_mat.shape[0]
     rank = np.zeros(n)
     for i in range(n):
-        finds = np.where(sort_
+        finds = np.where(sort_id_mat ==
