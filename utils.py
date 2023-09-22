@@ -115,4 +115,4 @@ def ranking_func(data):
     for i in range(n):
         finds = np.where(sort_id_mat == i)
         fid = finds[0][0]
-       
+        while 
