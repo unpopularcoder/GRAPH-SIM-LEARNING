@@ -117,4 +117,4 @@ def ranking_func(data):
         fid = finds[0][0]
         while fid > 0:
             cid = sort_id_mat[fid]
-            pid = sor
+            pid = sort_id_mat
