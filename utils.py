@@ -118,4 +118,5 @@ def ranking_func(data):
         while fid > 0:
             cid = sort_id_mat[fid]
             pid = sort_id_mat[fid - 1]
-            if data[pid] == d
+            if data[pid] == data[cid]:
+   
