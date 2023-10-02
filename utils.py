@@ -120,4 +120,4 @@ def ranking_func(data):
             pid = sort_id_mat[fid - 1]
             if data[pid] == data[cid]:
                 fid -= 1
-    
+            else:
