@@ -121,4 +121,5 @@ def ranking_func(data):
             if data[pid] == data[cid]:
                 fid -= 1
             else:
-                br
+                break
+        ran
