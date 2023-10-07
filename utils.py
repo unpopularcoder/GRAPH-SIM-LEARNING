@@ -124,4 +124,5 @@ def ranking_func(data):
                 break
         rank[i] = fid + 1
     
-    return 
+    return rank
+
