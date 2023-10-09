@@ -127,4 +127,4 @@ def ranking_func(data):
     return rank
 
 
-def calcul
+def calculate_ranki
