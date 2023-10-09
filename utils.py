@@ -127,4 +127,4 @@ def ranking_func(data):
     return rank
 
 
-def calculate_ranking_correlation(
+def calculate_ranking_correlation(rank_cor
