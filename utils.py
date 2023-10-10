@@ -127,4 +127,5 @@ def ranking_func(data):
     return rank
 
 
-def calculate_ranking_correlation(rank_corr_function, prediction, target)
+def calculate_ranking_correlation(rank_corr_function, prediction, target):
+    
