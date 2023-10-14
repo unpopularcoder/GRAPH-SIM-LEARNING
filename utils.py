@@ -129,4 +129,5 @@ def ranking_func(data):
 
 def calculate_ranking_correlation(rank_corr_function, prediction, target):
     """
-    Calculating specific ranking correlation for predicted va
+    Calculating specific ranking correlation for predicted values.
+    :p
