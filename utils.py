@@ -130,4 +130,4 @@ def ranking_func(data):
 def calculate_ranking_correlation(rank_corr_function, prediction, target):
     """
     Calculating specific ranking correlation for predicted values.
-    :param rank_c
+    :param rank_corr_functi
