@@ -132,4 +132,4 @@ def calculate_ranking_correlation(rank_corr_function, prediction, target):
     Calculating specific ranking correlation for predicted values.
     :param rank_corr_function: Ranking correlation function.
     :param prediction: Vector of predicted values.
-    :param target: Vector of g
+    :param target: Vector of ground-
