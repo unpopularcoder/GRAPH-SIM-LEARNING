@@ -136,4 +136,6 @@ def calculate_ranking_correlation(rank_corr_function, prediction, target):
     :return ranking: Ranking correlation value.
     """
     r_prediction = ranking_func(prediction)
-    r_target = ranking_func(targ
+    r_target = ranking_func(target)
+
+   
