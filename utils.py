@@ -138,4 +138,4 @@ def calculate_ranking_correlation(rank_corr_function, prediction, target):
     r_prediction = ranking_func(prediction)
     r_target = ranking_func(target)
 
-   
+    return ra
