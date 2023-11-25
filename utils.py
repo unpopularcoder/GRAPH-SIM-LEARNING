@@ -141,4 +141,4 @@ def calculate_ranking_correlation(rank_corr_function, prediction, target):
     return rank_corr_function(r_prediction, r_target).correlation
 
 
-def write_log_file
+def write_log_file(file_name_path
