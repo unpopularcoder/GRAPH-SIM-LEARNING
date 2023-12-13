@@ -143,3 +143,4 @@ def calculate_ranking_correlation(rank_corr_function, prediction, target):
 
 def write_log_file(file_name_path, log_str, print_flag=True):
     if print_flag:
+    
