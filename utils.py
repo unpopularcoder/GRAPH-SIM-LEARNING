@@ -145,4 +145,5 @@ def write_log_file(file_name_path, log_str, print_flag=True):
     if print_flag:
         print(log_str)
     if log_str is None:
-        log_str = 
+        log_str = 'None'
+   
