@@ -148,3 +148,4 @@ def write_log_file(file_name_path, log_str, print_flag=True):
         log_str = 'None'
     if os.path.isfile(file_name_path):
         with open(file_name_path, 'a+') as log_file:
+            log
