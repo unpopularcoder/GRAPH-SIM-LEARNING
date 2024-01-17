@@ -150,4 +150,4 @@ def write_log_file(file_name_path, log_str, print_flag=True):
         with open(file_name_path, 'a+') as log_file:
             log_file.write(log_str + '\n')
     else:
-        with open(file_
+        with open(file_name_pa
