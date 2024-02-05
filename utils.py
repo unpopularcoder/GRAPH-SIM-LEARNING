@@ -154,4 +154,5 @@ def write_log_file(file_name_path, log_str, print_flag=True):
             log_file.write(log_str + '\n')
 
 
-def log_args(file_name_path, args
+def log_args(file_name_path, args):
+   
