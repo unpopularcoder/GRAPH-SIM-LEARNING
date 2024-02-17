@@ -156,4 +156,5 @@ def write_log_file(file_name_path, log_str, print_flag=True):
 
 def log_args(file_name_path, args):
     v = vars(args)
-    with open(file_name_path, 'w+') as log
+    with open(file_name_path, 'w+') as log_file:
+ 
