@@ -158,4 +158,4 @@ def log_args(file_name_path, args):
     v = vars(args)
     with open(file_name_path, 'w+') as log_file:
         for k in v.keys():
-            log_file.write(str(k) + ':' 
+            log_file.write(str(k) + ':' + str(v[
