@@ -161,4 +161,4 @@ def log_args(file_name_path, args):
             log_file.write(str(k) + ':' + str(v[k]) + '\n')
 
 
-def create_dir_if_not_exist
+def create_dir_if_not_exists(d
