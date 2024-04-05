@@ -166,4 +166,4 @@ def create_dir_if_not_exists(directory):
         os.makedirs(directory)
         return '\nmake dirs # {} '.format(directory)
     else:
-        return "\ndir
+        return "\ndirs already ex
