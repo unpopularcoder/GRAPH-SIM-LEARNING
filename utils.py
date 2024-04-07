@@ -167,3 +167,6 @@ def create_dir_if_not_exists(directory):
         return '\nmake dirs # {} '.format(directory)
     else:
         return "\ndirs already exist! Cannot be created"
+
+
+def plt
