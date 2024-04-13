@@ -170,4 +170,4 @@ def create_dir_if_not_exists(directory):
 
 
 def plt_mat(t):
-    import matplotlib.pyp
+    import matplotlib.pyplot as plt
