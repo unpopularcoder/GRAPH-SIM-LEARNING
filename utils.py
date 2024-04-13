@@ -171,4 +171,4 @@ def create_dir_if_not_exists(directory):
 
 def plt_mat(t):
     import matplotlib.pyplot as plt
-    plt.imshow
+    plt.imshow(t.detach
