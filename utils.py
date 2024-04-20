@@ -173,4 +173,4 @@ def plt_mat(t):
     import matplotlib.pyplot as plt
     plt.imshow(t.detach().cpu().numpy())
     plt.colorbar()
-    plt.
+    plt.show()
