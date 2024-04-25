@@ -10,3 +10,12 @@ ii) a cross-attention (GCA) module for graph interaction modeling,
 iii) similarity self-attention (SSA) module for graph similarity matrix fusion and alignment, and
 
 iv) graph similarity structure learning for predicting the similarity score.
+
+## Requirements
+
+* python==3.8
+* pytorch==1.10.2
+* torch_geometric==1.10
+* tqdm
+* scipy
+* texttable
