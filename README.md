@@ -19,3 +19,11 @@ iv) graph similarity structure learning for predicting the similarity score.
 * tqdm
 * scipy
 * texttable
+
+## Run the Project
+
+To run the project, follow the instructions below:
+```
+cd src
+python main.py --dataset=LINUX
+```
